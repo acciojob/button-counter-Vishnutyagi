@@ -1,7 +1,8 @@
 
-import {useState} from 'react'
+import React, { useState } from "react";
+import './../styles/App.css';
 
-function App() {
+const App = () => {
   const [cnt,setCnt]=useState(0);
   const clicked=()=>{
     setCnt(cnt+1);
@@ -14,4 +15,4 @@ function App() {
   );
 }
 
-export default App;
+export default App
